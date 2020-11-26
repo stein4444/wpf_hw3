@@ -1,0 +1,15 @@
+E:\c# 3semestr\WpfCw2\bin\Debug\WpfCw2.exe.config
+E:\c# 3semestr\WpfCw2\bin\Debug\WpfCw2.exe
+E:\c# 3semestr\WpfCw2\bin\Debug\WpfCw2.pdb
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.csprojAssemblyReference.cache
+E:\c# 3semestr\WpfCw2\obj\Debug\MainWindow.g.cs
+E:\c# 3semestr\WpfCw2\obj\Debug\App.g.cs
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2_MarkupCompile.cache
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2_MarkupCompile.lref
+E:\c# 3semestr\WpfCw2\obj\Debug\MainWindow.baml
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.g.resources
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.Properties.Resources.resources
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.csproj.GenerateResource.cache
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.csproj.CoreCompileInputs.cache
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.exe
+E:\c# 3semestr\WpfCw2\obj\Debug\WpfCw2.pdb

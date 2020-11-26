@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfCw2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfCw2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="768">
+    <DockPanel LastChildFill="True" >
+        <Grid>
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*"/>
+                
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0"  >
+                <ComboBox  Margin="10" Name="Contacts" Height="40" SelectionChanged="Contacts_SelectionChanged"   ></ComboBox>
+            </StackPanel>
+            <DockPanel Grid.Column="1" LastChildFill="False" Margin="0.2,-10,-0.4,10.4" >
+                <Label Margin="20" DockPanel.Dock="Top" Height="35" FontSize="20" >
+                    Name: 
+                </Label>
+                <TextBox Name="Name" DockPanel.Dock="Top" FontSize="20" Height="40" Width="300" BorderThickness="5,5" BorderBrush="DarkGray" >
+                </TextBox>
+                <Label Margin="20" DockPanel.Dock="Top" Height="35" FontSize="20">Suranme: </Label>
+                <TextBox Name="Surname" DockPanel.Dock="Top" FontSize="20" Height="40" Width="300" BorderThickness="5,5" BorderBrush="DarkGray" >
+                </TextBox>
+                <Label Margin="20" DockPanel.Dock="Top" Height="35" FontSize="20">Phone:</Label>
+                <TextBox Name="Phone" DockPanel.Dock="Top" FontSize="20" Height="40" Width="300" BorderThickness="5,5" BorderBrush="DarkGray" >
+                </TextBox>
+                <Label Margin="20" DockPanel.Dock="Top" Height="35" FontSize="20">Country:</Label>
+                <ComboBox Name="Country" FontSize="30" Height="50" DockPanel.Dock="Top" Width="340" HorizontalAlignment="Center"  >
+                </ComboBox>
+                <DockPanel DockPanel.Dock="Bottom" Margin="10" Height="50" LastChildFill="False">
+                    <Button Margin="10" Width="90" HorizontalAlignment="Left" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" BorderThickness="3,3" BorderBrush="Green" Click="Button_Click" > Add</Button>
+                    <Button Margin="10" Width="90" HorizontalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" BorderThickness="3,3" BorderBrush="Orange" Click="Button_Click3" >Clear</Button>
+                    <Button Margin="10" Width="90" HorizontalAlignment="Right" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="18" BorderThickness="3,3" BorderBrush="DarkRed" Click="Button_Click_1" >Remove</Button>
+                    
+                </DockPanel>
+            </DockPanel>
+        </Grid>
+    </DockPanel>
+</Window>
